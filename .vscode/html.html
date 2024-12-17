@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+
+<head>
+    <style>
+    tr{
+        border: 2px solid black;
+    }
+    th{
+        border: 2px solid black;
+    }
+    td{
+        border: 2px solid black;
+    }
+    table{
+        height: 200px;
+        width: 400px;
+    }
+    </style>
+</head>
+<body>
+   
+<table >
+   <th colspan="8"></th>
+  
+   <tr>
+    <td colspan="2"></td>
+    <td colspan="6"></td>
+   </tr>
+   <tr>
+    <td colspan="2"></td>
+    <td colspan="2"></td>
+    <td colspan="4"></td>
+   </tr>
+   <tr>
+    <td colspan="3"></td>
+    <td colspan="3"></td>
+    <td colspan="2"></td>
+   </tr>
+  <tr>
+    <td colspan="8"></td>
+  </tr>
+</table>
+
+</body>
+echo "# gvv" >> README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin https://github.com/chira-nj/gvv.git
+git push -u origin main
